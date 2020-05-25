@@ -1,0 +1,15 @@
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.deps.json
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.runtimeconfig.json
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.runtimeconfig.dev.json
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.dll
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Persistence.pdb
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Entity.dll
+D:\GitProjects\SampleArch\Paycompute.Persistence\bin\Debug\netcoreapp3.1\Paycompute.Entity.pdb
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.csprojAssemblyReference.cache
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.AssemblyInfoInputs.cache
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.AssemblyInfo.cs
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.csproj.CoreCompileInputs.cache
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.csproj.CopyComplete
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.dll
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.pdb
+D:\GitProjects\SampleArch\Paycompute.Persistence\obj\Debug\netcoreapp3.1\Paycompute.Persistence.genruntimeconfig.cache
