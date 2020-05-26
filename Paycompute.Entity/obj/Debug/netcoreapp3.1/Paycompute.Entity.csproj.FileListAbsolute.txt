@@ -6,3 +6,12 @@ D:\GitProjects\SampleArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.E
 D:\GitProjects\SampleArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.csproj.CoreCompileInputs.cache
 D:\GitProjects\SampleArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.dll
 D:\GitProjects\SampleArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.pdb
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\bin\Debug\netcoreapp3.1\Paycompute.Entity.deps.json
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\bin\Debug\netcoreapp3.1\Paycompute.Entity.dll
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\bin\Debug\netcoreapp3.1\Paycompute.Entity.pdb
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.csprojAssemblyReference.cache
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.AssemblyInfoInputs.cache
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.AssemblyInfo.cs
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.csproj.CoreCompileInputs.cache
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.dll
+D:\GitProjects\SampleCoreArch\Paycompute.Entity\obj\Debug\netcoreapp3.1\Paycompute.Entity.pdb
