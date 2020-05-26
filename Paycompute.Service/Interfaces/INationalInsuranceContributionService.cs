@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Paycompute.Services
+namespace Paycompute.Services.Interfaces
 {
     public interface INationalInsuranceContributionService
     {

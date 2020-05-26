@@ -6,8 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Paycompute.Persistence;
-using Paycompute.Services;
 using Paycompute.Services.Implementation;
+using Paycompute.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System;
 using Microsoft.AspNetCore.Mvc;
@@ -65,6 +65,7 @@ namespace Paycompute
             services.AddScoped<IPayComputationService, PayComputationService>();
             services.AddScoped<INationalInsuranceContributionService, NationalInsuranceContributionService>();
             services.AddScoped<ITaxService, TaxService>();
+            
 
         }
 
@@ -88,7 +89,7 @@ namespace Paycompute
 
 
             //new
-            //app.UseCookiePolicy();
+            app.UseCookiePolicy();
 
             app.UseAuthentication();
             app.UseAuthorization();
@@ -96,7 +97,7 @@ namespace Paycompute
 
 
 
-           // DataSeedingInitializer.UserAndRoleSeedAsync(userManager, roleManager).Wait();
+            //DataSeedingInitializer.UserAndRoleSeedAsync(userManager, roleManager).Wait();
 
             app.UseEndpoints(endpoints =>
             {

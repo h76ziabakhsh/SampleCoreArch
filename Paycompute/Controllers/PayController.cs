@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Paycompute.Entity;
 using Paycompute.Models;
-using Paycompute.Services;
+using Paycompute.Services.Interfaces;
 using RotativaCore;
 using System;
 using System.Collections.Generic;

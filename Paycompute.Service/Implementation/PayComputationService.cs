@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Paycompute.Entity;
 using Paycompute.Persistence;
+using Paycompute.Services.Interfaces;
 
 namespace Paycompute.Services.Implementation
 {

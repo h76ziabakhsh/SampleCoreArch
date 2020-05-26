@@ -3,12 +3,13 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting.Internal;
+//using Microsoft.Extensions.Hosting.Internal;
 using Paycompute.Entity;
 using Paycompute.Models;
-using Paycompute.Services;
+using Paycompute.Services.Interfaces;
+using Paycompute;
 
 namespace Paycompute.Controllers
 {
@@ -16,11 +17,11 @@ namespace Paycompute.Controllers
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;
-        private readonly HostingEnvironment _hostingEnvironment; 
-        public EmployeeController(IEmployeeService employeeService, HostingEnvironment hostingEnvironment)
+        private readonly IWebHostEnvironment _webHostEnvironment; 
+        public EmployeeController(IEmployeeService employeeService, IWebHostEnvironment webHostEnvironment)
         {
             _employeeService = employeeService;
-            _hostingEnvironment = hostingEnvironment;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Index(int? pageNumber)
@@ -80,7 +81,7 @@ namespace Paycompute.Controllers
                     var uploadDir = @"images/employee";
                     var fileName = Path.GetFileNameWithoutExtension(model.ImageUrl.FileName);
                     var extension = Path.GetExtension(model.ImageUrl.FileName);
-                    var webRootPath = _hostingEnvironment.ContentRootPath;
+                    var webRootPath = _webHostEnvironment.ContentRootPath;
                     fileName = DateTime.UtcNow.ToString("yymmssfff") + fileName + extension;
                     var path = Path.Combine(webRootPath, uploadDir, fileName);
                     await model.ImageUrl.CopyToAsync(new FileStream(path, FileMode.Create));
@@ -157,7 +158,7 @@ namespace Paycompute.Controllers
                     var uploadDir = @"images/employee";
                     var fileName = Path.GetFileNameWithoutExtension(model.ImageUrl.FileName);
                     var extension = Path.GetExtension(model.ImageUrl.FileName);
-                    var webRootPath = _hostingEnvironment.ContentRootPath;
+                    var webRootPath = _webHostEnvironment.ContentRootPath;
                     fileName = DateTime.UtcNow.ToString("yymmssfff") + fileName + extension;
                     var path = Path.Combine(webRootPath, uploadDir, fileName);
                     await model.ImageUrl.CopyToAsync(new FileStream(path, FileMode.Create));

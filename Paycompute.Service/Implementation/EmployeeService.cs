@@ -7,10 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Paycompute.Entity;
 using Paycompute.Persistence;
+using Paycompute.Services.Interfaces;
 
 namespace Paycompute.Services.Implementation
 {
-    public class EmployeeService : Paycompute.Services.IEmployeeService
+    public class EmployeeService : IEmployeeService
     {
         private readonly ApplicationDbContext _context;
         private decimal studentLoanAmount;
